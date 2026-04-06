@@ -30,7 +30,7 @@ This is my personal portfolio website built to showcase my skills, projects, and
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot] (images/project1.png)
+![Portfolio Screenshot](images/project1.png)
 
 ---
 
