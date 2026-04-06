@@ -3,7 +3,7 @@
 This is my personal portfolio website built to showcase my skills, projects, and frontend development experience.
 
 ## 🚀 Live Preview
-👉 Add your live link here (GitHub Pages / Netlify)
+👉 [Portfolio](https://abhiishx-ai.github.io/portfolio-website/)
 
 ---
 
