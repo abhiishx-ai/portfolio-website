@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Abhishek | Frontend Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+<header>
+  <div class="container navbar">
+    <div class="logo">ABHISHEK VERMA</div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="right-controls">
+      <button id="themeToggle">🌙</button>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+<section id="home" class="home">
+  <img src="images/profile.jpeg" class="profile-img">
+  <h1>Hi, I'm Abhishek 👋</h1>
+  <h2><span id="typing"></span></h2>
+
+  <div class="buttons">
+    <a href="docs/resume.pdf" class="btn">Resume</a>
+    <a href="#projects" class="btn">Projects</a>
+    <a href="https://linkedin.com/in/abhiishx" target="_blank" class="btn">LinkedIn</a>
+    <a href="https://github.com/abhiishx-ai" target="_blank" class="btn">GitHub</a>
+  </div>
+</section>
+
+<section id="about" data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>I build modern websites with clean UI and smooth user experience.</p>
+</section>
+
+<section id="skills" data-aos="fade-up">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+    <span class="skill">JavaScript</span>
+    <span class="skill">Responsive Design</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 data-aos="fade-up">Projects</h2>
+
+  <div class="project-container">
+
+    <div class="project-card" data-aos="zoom-in">
+      <img src="images/project1.png">
+      <h3>Portfolio Website</h3>
+      <div class="project-links">
+        <a href="#" class="btn">Live</a>
+        <a href="#" class="btn">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card" data-aos="zoom-in">
+      <img src="images/project2.png">
+      <h3>Weather App</h3>
+      <div class="project-links">
+        <a href="#" class="btn">Live</a>
+        <a href="#" class="btn">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-left">
+  <h2>Contact</h2>
+  <p>Email: abhiishx@email.com</p>
+</section>
+
+<footer>
+  © 2026 Abhishek | Built with ❤️
+</footer>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
