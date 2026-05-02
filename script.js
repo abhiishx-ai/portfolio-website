@@ -3,7 +3,8 @@ import 'aos/dist/aos.css';
 import Typed from 'typed.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-  AOS.init();
+  AOS.init({
+  });
 });
 
 new Typed("#typing", {
