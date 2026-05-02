@@ -1,10 +1,14 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Typed from 'typed.js';
+
 AOS.init();
 
 new Typed("#typing", {
-  strings:["Frontend Developer","Web Designer","Problem Solver"],
-  typeSpeed:50,
-  backSpeed:30,
-  loop:true
+  strings: ["Frontend Developer", "Web Designer", "Problem Solver"],
+  typeSpeed: 50,
+  backSpeed: 30,
+  loop: true
 });
 
 function toggleMenu(){

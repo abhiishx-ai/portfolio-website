@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal portfolio website built to showcase my skills, projects, and frontend development experience.",
+  "main": "script.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiishx-ai/portfolio-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abhiishx-ai/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/abhiishx-ai/portfolio-website#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "typed.js": "^3.0.0",
+    "vite": "^8.0.10"
+  }
+}
