@@ -2,7 +2,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Typed from 'typed.js';
 
-AOS.init();
+document.addEventListener("DOMContentLoaded", () => {
+  AOS.init();
+});
 
 new Typed("#typing", {
   strings: ["Frontend Developer", "Web Designer", "Problem Solver"],
